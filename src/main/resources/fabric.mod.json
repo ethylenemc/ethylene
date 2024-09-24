@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "ethylene",
+  "version": "${version}",
+
+  "name": "Ethylene",
+  "description": "",
+  "authors": [],
+  "contact": {},
+
+  "license": "MIT",
+  "icon": "assets/ethylene/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.tonimatas.ethylene.Ethylene"]
+  },
+
+  "mixins": [
+    "ethylene.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=${loaderVersion}",
+    "minecraft": "${minecraftVersion}"
+  }
+}
