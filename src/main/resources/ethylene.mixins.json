@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "dev.tonimatas.ethylene.mixin",
+  "package": "dev.tonimatas.ethylene.mixins",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
   ],

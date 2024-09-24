@@ -5,7 +5,6 @@ plugins {
 val modVersion: String by extra
 val minecraftVersion: String by extra
 val loaderVersion: String by extra
-val yarnVersion: String by extra
 
 version = modVersion
 group = "dev.tonimatas"
@@ -19,7 +18,7 @@ java {
 
 dependencies {
     minecraft("com.mojang:minecraft:$minecraftVersion")
-    mappings("net.fabricmc:yarn:$yarnVersion:v2")
+    mappings(loom.officialMojangMappings())
     modImplementation("net.fabricmc:fabric-loader:$loaderVersion")
 
     //modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
